@@ -9,3 +9,5 @@ then go to chrome://extensions/
 hit load unpacked
 
 and load up the folder you downloaded
+
+For usage highlight some text, right click and click the guitar man extension
