@@ -12,6 +12,6 @@ chrome .contextMenus.onClicked.addListener(function (info, tab) {
         const tellme = info.selectionText;
         chrome.tabs.create({ url: `https://www.ultimate-guitar.com/search.php?search_type=title&value=${tellme}` });
         chrome.tabs.create({ url: `https://www.youtube.com/results?search_query=${tellme}` });
-        chrome.tabs.create({ url: `https://www.spotify.com/search/${tellme}` });
+        chrome.tabs.create({ url: `https://open.spotify.com/search/${tellme}` });
     }   
 });
